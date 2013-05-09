@@ -5,12 +5,14 @@ from os import path
 def read(fname):
     return open(path.join(path.dirname(__file__), fname)).read()
 
+
 setup(
     name='jython-sikuli-server',
-    include_package_data = True,
-    package_data = {'':['*.md']},
+    include_package_data=True,
+    scripts=['sikuliserver.sh', 'sikuliserver.bat'],
+    package_data={'': ['*.md']},
     author='Alistair Broomhead',
-    version='0.1.8',
+    version='0.1.8.2',
     author_email='alistair.broomhead@gmail.com',
     description='Jython script to run a robot remote library exposing the Sikuli API (and popen).',
     license='MIT',
@@ -18,6 +20,6 @@ setup(
     download_url='https://github.com/alistair-broomhead/jython-sikuli-server/zipball/master',
     long_description=read('README.md'),
     packages=find_packages('src'),
-    package_dir={ '' : 'src' },
+    package_dir={'': 'src'},
     install_requires=[]
 )
