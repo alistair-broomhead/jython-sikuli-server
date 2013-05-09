@@ -63,7 +63,7 @@ copyright = u'2013, Alistair Broomhead'
 def getvers():
     """ gets version info from version file """
     from json import load
-    with open('../version') as version_file:
+    with open('../srv/jython_sikuli_server/version') as version_file:
         version_list = [str(x) for x in load(version_file)]
     version = '.'.join(version_list[:2])
     release = '.'.join(version_list)
