@@ -1,15 +1,21 @@
-.. SikuliServer documentation master file, created by
-   sphinx-quickstart on Thu Jan 17 14:45:19 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to the SikuliServer documentation
-=========================================
+Welcome to the jython-sikuli-server documentation
+=================================================
 
-You can get hold of SikuliServer at
-https://github.com/alistair-broomhead/robotframework-sikuliserver
--- currently cloning this into your python path is the only way to install
-SikuliServer.
+The recommeneded way to get hold of jython-sikuli-server is to install as a
+python package, using `pip install jython-sikuli-server`, which will allow you
+to upgrade using `pip install jython-sikuli-server -U`. This will install and
+update the jython code itself, as well as two scripts - sikuliserver.bat for
+windows and sikuliserver.sh for any others.
+
+These scripts can be uesd to run the server on your system under test, however
+you will need Java 6 and Sikuli X installed on your machine, in the paths
+referred to by those scripts - please get in contact if you need help getting
+sikuli server up and running.
+
+For help installing Java 6 see http://java.com/en/download/help/index_installing.xml
+
+For Sikuli X please see http://www.sikuli.org/download.html
 
 Table of Contents
 -----------------
@@ -18,11 +24,11 @@ Table of Contents
 .. toctree::
    :maxdepth: 4
 
-
-   Running_The_Server
-   Connecting_A_Client
    Using_From_RobotFramework
-   SikuliServer
+   jython_sikuli_server
+   jython_sikuli_server.class
+   jython_sikuli_server.robotremoteserver
+   jython_sikuli_server.sikuli_class
 
 
 Indices and tables

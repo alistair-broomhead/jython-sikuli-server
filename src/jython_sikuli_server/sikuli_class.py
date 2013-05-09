@@ -48,11 +48,3 @@ class UnimplementedSikuliClass(ServerSikuliClass):
         raise NotImplementedError("Not implemented %r"%cls)
 
 SikuliClass = ServerSikuliClass
-#noinspection PyStatementEffect
-"""
-For convenience - anything importing
-:class:`python_sikuli_client.sikuli_class.SikuliClass` will get
-:class:`~python_sikuli_client.sikuli_class.ClientSikuliClass`, wheras anything
-importing :class:`jython_sikuli_server.class_definitions.sikuli_class.SikuliClass` will
-get :class:`~jython_sikuli_server.class_definitions.sikuli_class.ServerSikuliClass`
-"""

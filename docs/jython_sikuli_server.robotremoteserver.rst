@@ -1,4 +1,4 @@
 :mod:`robotremoteserver`
 ========================
-.. automodule:: sikuli_server.robotremoteserver
+.. automodule:: jython_sikuli_server.robotremoteserver
    :members:

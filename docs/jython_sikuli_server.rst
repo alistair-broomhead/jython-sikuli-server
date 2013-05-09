@@ -1,2 +1,2 @@
-.. automodule:: sikuli_server
+.. automodule:: jython_sikuli_server
    :members:

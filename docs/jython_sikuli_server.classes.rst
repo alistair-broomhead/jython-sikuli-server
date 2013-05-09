@@ -1,4 +1,4 @@
 :mod:`classes`
 ========================
-.. automodule:: sikuli_server.classes
+.. automodule:: jython_sikuli_server.classes
    :members:

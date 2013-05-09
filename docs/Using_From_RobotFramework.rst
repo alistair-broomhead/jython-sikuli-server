@@ -1,2 +1,2 @@
-Using :mod:`SikuliServer.SikuliServer` from RobotFramework
+Using :mod:`jython_sikuli_server.SikuliServer` from RobotFramework
 ==========================================================

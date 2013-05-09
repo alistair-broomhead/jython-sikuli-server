@@ -1,5 +1,5 @@
 """
-:mod:`sikuli_server`
+:mod:`jython_sikuli_server`
 ========================================
 
 Jython script to run a robot remote library exposing the Sikuli API (and popen)
@@ -9,9 +9,7 @@ Jython script to run a robot remote library exposing the Sikuli API (and popen)
    :maxdepth: 2
    :glob:
 
-   sikuli_server.classes
-   sikuli_server.robotremoteserver
-   sikuli_server.sikuli_class
+   jython_sikuli_server.*
 """
 
 try:
